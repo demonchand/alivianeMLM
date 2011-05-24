@@ -1,4 +1,6 @@
 AlivianeMLM::Application.routes.draw do
+  resources :customers
+
   get "home/index"
 
   devise_for :users
